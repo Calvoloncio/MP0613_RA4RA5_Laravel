@@ -1,11 +1,11 @@
 [
     {
-        "name": "La Rosa Púrpura del Cairo",
+        "name": "La Rosa P\u00farpura del Cairo",
         "year": 1985,
         "genre": "Drama",
         "duration": "1h 42m",
         "country": "Andorra",
-        "img_url": "https://es.web.img2.acsta.net/medias/nmedia/18/79/45/34/20253823.jpg"
+        "img_url": "https:\/\/es.web.img2.acsta.net\/medias\/nmedia\/18\/79\/45\/34\/20253823.jpg"
     },
     {
         "name": "El Club de los Cinco",
@@ -13,7 +13,7 @@
         "genre": "Comedia",
         "duration": "1h 37m",
         "country": "Venezuela",
-        "img_url": "https://pics.filmaffinity.com/El_club_de_los_cinco-192309838-large.jpg"
+        "img_url": "https:\/\/pics.filmaffinity.com\/El_club_de_los_cinco-192309838-large.jpg"
     },
     {
         "name": "Forrest Gump",
@@ -21,22 +21,62 @@
         "genre": "Drama",
         "duration": "2h 22m",
         "country": "Estados Unidos",
-        "img_url": "https://pics.filmaffinity.com/Forrest_Gump-212765827-large.jpg"
+        "img_url": "https:\/\/pics.filmaffinity.com\/Forrest_Gump-212765827-large.jpg"
     },
     {
         "name": "Arrival",
         "year": 2016,
-        "genre": "Ciencia Ficción",
+        "genre": "Ciencia Ficci\u00f3n",
         "duration": "1h 56m",
         "country": "Francia",
-        "img_url": "https://pics.filmaffinity.com/La_llegada-686966912-large.jpg"
+        "img_url": "https:\/\/pics.filmaffinity.com\/La_llegada-686966912-large.jpg"
     },
     {
         "name": "As Bestas",
         "year": 2022,
         "genre": "Drama",
         "duration": "2h 17m",
-        "country": "España",
-        "img_url": "https://pics.filmaffinity.com/As_bestas-275688233-large.jpg"
+        "country": "Espa\u00f1a",
+        "img_url": "https:\/\/pics.filmaffinity.com\/As_bestas-275688233-large.jpg"
+    },
+    {
+        "name": "Arnau va a Stucom",
+        "year": "2000",
+        "genre": "Drama",
+        "duration": "1h 54min",
+        "country": "Espa\u00f1a",
+        "img_url": "https:\/\/preview.redd.it\/plsplsplspls-make-mclovin-i-beg-v0-bub7mmu5tagd1.png?width=640&crop=smart&auto=webp&s=c2711cc2ebc97433b7717393df4080e5ec246593"
+    },
+    {
+        "name": "Olalla la yaya",
+        "year": "2006",
+        "genre": "Accion",
+        "duration": "1h 54min",
+        "country": "Espa\u00f1a",
+        "img_url": "https:\/\/preview.redd.it\/crazy-grannys-doing-some-wild-parkour-v0-9qadjpvwzcpa1.png?width=640&crop=smart&auto=webp&s=daa56555b4233df325f16aaca97405c3ef774f6b"
+    },
+    {
+        "name": "Arnau va a Stucom 2",
+        "year": "2006",
+        "genre": "Drama",
+        "duration": "2h 6min",
+        "country": "Espa\u00f1a",
+        "img_url": "https:\/\/preview.redd.it\/okarun-mclovin-v0-5ffo9ddswqsd1.png?width=612&format=png&auto=webp&s=c4e25858d73fc581ea5d85a00a03eb7c0067ccaf"
+    },
+    {
+        "name": "Olalla la yaya 2",
+        "year": "2009",
+        "genre": "Accion",
+        "duration": "2h 6min",
+        "country": "Espa\u00f1a",
+        "img_url": "https:\/\/preview.redd.it\/crazy-grannys-doing-some-wild-parkour-v0-god8n6xwzcpa1.png?width=640&crop=smart&auto=webp&s=8a1359680c23b26a2c502cf5d33729bc39943be7"
+    },
+    {
+        "name": "Prueba Final",
+        "year": "2000",
+        "genre": "Drama",
+        "duration": "1h 54min",
+        "country": "Espa\u00f1a",
+        "img_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQCRGJ1uvkRQm7Mtfjk5VAmvopJuT1vcmMvww&s"
     }
 ]

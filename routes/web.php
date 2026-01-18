@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\FilmController;
-use App\Http\Middleware\ValidateYear;
+use App\Http\Middleware\ValidateYear; 
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,8 +28,22 @@ Route::middleware('year')->group(function() {
         // Routes included with prefix "filmout"
         Route::get('oldFilms/{year?}',[FilmController::class, "listOldFilms"])->name('oldFilms');
         Route::get('newFilms/{year?}',[FilmController::class, "listNewFilms"])->name('newFilms');
-        Route::get('films/{year?}/{genre?}',[FilmController::class, "listFilms"])->name('listFilms');
+        route::get('films/',[FilmController::class, "listFilms"])->name('films');
+        Route::get('filmsYear/{year?}',[FilmController::class, "listFilmsByYear"])->name('listFilmsByYear');
+        Route::get('filmsGenre/{genre?}',[FilmController::class, "listFilmsByGenre"])->name('listFilmsByGenre');
+        Route::get('sortFilms/',[FilmController::class, "sortFilms"])->name('sortFilms');
+        
+
     });
+    });
+Route::middleware('ValidateUrl')->group(function() {
+    Route::group(['prefix'=>'filmin'], function(){
+        // Routes included with prefix "filmin"
+        Route::post('/film',[FilmController::class, "createFilm"])->name('film');
+        
+
+    });
+
 });
 
 
