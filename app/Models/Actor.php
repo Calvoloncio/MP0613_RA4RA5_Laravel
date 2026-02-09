@@ -2,23 +2,23 @@
 
 namespace App\Models;
 
+use Faker\Guesser\Name;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Film extends Model
+class Actor extends Model
 {
     use HasFactory;
 
     // Nombre de la tabla (opcional, Laravel lo deduce bien)
-    protected $table = 'films';
+    protected $table = 'actors';
 
     // Campos que se pueden rellenar en masa
     protected $fillable = [
         'name',
-        'year',
-        'genre',
+        'surname',
+        'birthdate',
         'country',
-        'duration',
         'img_url',
     ];
 }
