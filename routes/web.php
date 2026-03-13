@@ -49,6 +49,7 @@ Route::middleware('ValidateUrl')->group(function() {
 
 Route::group(['prefix'=>'actorout'], function(){
     Route::get('actors',[ActorController::class, "listActors"])->name('listActors');
+    Route::get('actorsDecade',[ActorController::class, "listActorsByDecade"])->name('listActorsByDecade');
 });
 
 

@@ -6,6 +6,21 @@
 
 <h1>{{$title}}</h1>
 
+<div align="center" style="margin-bottom: 20px;">
+    <form action="{{ route('listActorsByDecade') }}" method="GET" style="display: inline-block; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        <label for="decade" style="font-weight: 600;">Filtrar por Década:</label>
+        <select name="decade" id="decade" style="padding: 5px; border-radius: 5px; border: 1px solid #ccc;">
+            <option value="1980">1980 - 1989</option>
+            <option value="1990">1990 - 1999</option>
+            <option value="2000">2000 - 2009</option>
+            <option value="2010">2010 - 2019</option>
+            <option value="2020">2020 - 2029</option>
+        </select>
+        <button type="submit" class="btn btn-primary" style="margin-left: 10px;">Filtrar</button>
+        <a href="{{ route('listActors') }}" class="btn btn-secondary" style="margin-left: 10px; background-color: #6c757d; color: white; padding: 6px 12px; border-radius: 5px; text-decoration: none; font-size: 14px;">Ver Todos</a>
+    </form>
+</div>
+
 @if($actors->isEmpty())
     <FONT COLOR="red">No se ha encontrado ningún actor</FONT>
 @else
