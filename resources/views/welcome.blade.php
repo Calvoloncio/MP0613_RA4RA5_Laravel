@@ -17,6 +17,7 @@
 <h1 class="mt-4">Lista de Actores</h1>
 <ul>
     <li><a href="/actorout/actors">Actores</a></li>
+    <li><a href="/actorout/count">Contar Actores</a></li>
 </ul>
 
 <h2 class="mt-4">Añadir Pelicula</h2>
