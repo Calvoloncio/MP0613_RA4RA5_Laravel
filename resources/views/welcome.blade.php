@@ -14,6 +14,11 @@
     <li><a href="/filmout/filmsYear">Pelis por Año</a></li>
 </ul>
 
+<h1 class="mt-4">Lista de Actores</h1>
+<ul>
+    <li><a href="/actorout/actors">Actores</a></li>
+</ul>
+
 <h2 class="mt-4">Añadir Pelicula</h2>
 
  

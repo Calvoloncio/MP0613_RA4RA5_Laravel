@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FilmController;
+use App\Http\Controllers\ActorController;
 use App\Http\Middleware\ValidateYear; 
 use Illuminate\Support\Facades\Route;
 
@@ -44,6 +45,10 @@ Route::middleware('ValidateUrl')->group(function() {
 
     });
 
+});
+
+Route::group(['prefix'=>'actorout'], function(){
+    Route::get('actors',[ActorController::class, "listActors"])->name('listActors');
 });
 
 
