@@ -43,4 +43,24 @@ class ActorController extends Controller
 
         return view('actors.count', compact('count', 'title'));
     }
+    /**
+     * Delete an actor from the database.
+     */
+    public function deleteActor($id)
+    {
+        $actor = Actor::find($id);
+
+        if ($actor) {
+            $actor->delete();
+            return response()->json([
+                'action' => 'delete',
+                'status' => true
+            ]);
+        }
+
+        return response()->json([
+            'action' => 'delete',
+            'status' => false
+        ]);
+    }
 }
