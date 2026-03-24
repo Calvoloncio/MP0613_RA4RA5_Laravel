@@ -21,7 +21,7 @@ public function run()
         $selectedActors = $actors->random($numActors);
 
         foreach ($selectedActors as $actor) {
-            DB::table('film_actor')->insert([
+            DB::table('actors_films')->insert([
                 'film_id' => $film,
                 'actor_id' => $actor,
                 'created_at' => now(),
