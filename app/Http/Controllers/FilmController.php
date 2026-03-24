@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
+use App\Models\Film;
 class FilmController extends Controller
 {
 
@@ -231,4 +232,14 @@ class FilmController extends Controller
  
         return $this->listFilms();
     }
+
+    /**
+     * Get all films with their actors as JSON for API REST
+     */
+    public function listFilmsWithActors()
+    {
+        $films = Film::with('actors')->get();
+        return response()->json($films, 200);
+    }
+
 }
